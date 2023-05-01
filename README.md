@@ -36,15 +36,13 @@ The expected request body for creating and updating an employee is:
 
 ## Running the application  
 
-Navigate to the root of the directory.
+Navigate to the root of the directory and run the following commands:
 
-To run tests and build JAR file run the following gradle command:
-`./gradlew build`
 
-Run the following command:
-`docker-compose up` 
+`./gradlew build` - This will run tests using in-memory H2 DB and once all tests pass, it will continue to  build a JAR file for the application that can be found in the `build/libs` directory.
 
-This will start two containers - one for MySQL and another for the application JAR file. The JAR container will be available at http://localhost:8080, while the MySQL container will be available at localhost:3306.
+
+`docker-compose up` - This will start two containers - one for MySQL and another for the application JAR file. The JAR container will be available at http://localhost:8080, while the MySQL container will be available at localhost:3306.
 
 
 
