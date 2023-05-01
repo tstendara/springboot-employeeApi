@@ -1,3 +1,5 @@
+
+
 plugins {
 	java
 	id("org.springframework.boot") version "3.1.0-M2"
@@ -12,6 +14,13 @@ configurations {
 	compileOnly {
 		extendsFrom(configurations.annotationProcessor.get())
 	}
+}
+
+tasks.named<Jar>("jar") {
+	manifest {
+		attributes["Main-Class"] = "com.EmployeeApi.EmployeeAPIApplication"
+	}
+	archiveFileName.set("EmployeeAPI.jar")
 }
 
 repositories {
