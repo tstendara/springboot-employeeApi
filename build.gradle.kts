@@ -31,6 +31,7 @@ dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-web")
     testImplementation("junit:junit:4.13.1")
 	testImplementation("junit:junit:4.13.1")
+	testImplementation("com.h2database:h2:1.4.200")
 	compileOnly("org.projectlombok:lombok")
 	runtimeOnly("com.mysql:mysql-connector-j")
 	annotationProcessor("org.projectlombok:lombok")
