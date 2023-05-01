@@ -12,7 +12,8 @@ This project was built using the following technologies:
 - Docker
 
 ## Endpoints
-[Click here to view the endpoints in Postman](https://www.postman.com/tsten/workspace/employeeapi/overview) 
+<a href="https://www.postman.com/tsten/workspace/employeeapi/overview" target="_blank">Click here to view the endpoints in Postman</a>
+
 > **Note:** Please note that to run the endpoints on your localhost, it's recommended to use the Postman app instead of the website. 
 
 
